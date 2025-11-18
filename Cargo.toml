@@ -12,10 +12,10 @@ license = "MIT OR Apache-2.0"
 categories = ["text-processing", "encoding"]
 exclude = ["/.github", "/scripts", "/src/unicode/data"]
 edition = "2021"
-rust-version = "1.73"
+# rust-version = "1.73"
 resolver = "2"
 
-[workspace]
+#[workspace]
 members = ["bench"]
 
 [lib]
