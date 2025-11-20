@@ -56,8 +56,8 @@ all-features = true
 #     RUSTDOCFLAGS="--cfg docsrs" cargo +nightly doc --all-features
 rustdoc-args = ["--cfg", "docsrs"]
 
-[profile.release]
-debug = true
+# [profile.release]
+# debug = true
 
 [[example]]
 name = "graphemes"
